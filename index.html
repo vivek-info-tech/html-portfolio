@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleSwetcher.css">
+    <link rel="stylesheet" href="css/color-1.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="icons/more.png" onclick="showSidebar()">
+        </div>
+        <div class="navdiv">
+            <ul class="sidebar">
+                <li class="list-item" onclick="hideSidebar()" ><a> <img class="cross" src="icons/close.png"  ></a></li>
+                <li class="list-item"  ><a href="index.html" class="active" target="_self"> Home</a></li>
+                <li class="list-item"><a href="portfolio.html" target="_parent"> Portfolio</a></li>
+                <li class="list-item"><a href="skill.html" target="_parent"> Skill</a></li>
+                <li class="list-item"><a href="contact.html" target="_parent"> Contact Us</a></li>
+                <li class="list-item"><a href="aboutme.html" target="_self" class="active" aria-current="page"> About
+                        Us</a></li>
+
+            </ul>
+        </div>
+        <div class="navh2">
+            <h2>Vivek Kumar</h2>
+        </div>
+        <div class="navdiv">
+
+            <ul class="menu">
+                <li class="list-item" aria-current="page" target="_self"><a class="active" href="index.html"> Home</a>
+                </li>
+                <li class="list-item"><a href="portfolio.html" target="_parent"> Portfolio</a></li>
+                <li class="list-item"><a href="skill.html" target="_parent"> Skill</a></li>
+                <li class="list-item"><a href="contact.html" target="_parent"> Contact Us</a></li>
+                <li class="list-item"><a href="aboutme.html" target="_parent"> About Me</a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <div class="contaner">
+        <div class="home">
+
+            <div class="home-info">
+                <h3 class="hello">Hello, my name is <span class="name"> Vivek Kumar</span></h3>
+                <h3 class="my-profesion">I' m a <span class="typing">Web designer</span></h3>
+                <p>I am a B-Tech final year Student. I am a also create and website design, create app design,and many
+                    more...</p>
+                <a href="aboutme.html" class="btn">Know more</a>
+            </div>
+
+
+            <div class="home-img">
+                <img src="imagefile/profileimg1.jpg" alt="Error">
+            </div>
+        </div>
+    </div>
+    <!-- to write Home Section End from here -->
+    <!-- to write skill Section Start from here -->
+
+    <div class="contaner">
+        <h1 class="skill-h1">Technical Skill</h1>
+        <div class="skills">
+
+            <div class="skill">
+                <div class="skill-name">HTML</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="90%" style="max-width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">CSS</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="70%" style="max-width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">JAVA SCRIPT</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="65%" style="max-width: 65%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">React JS</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="50%" style="max-width: 50%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">My SQL</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="85%" style="max-width: 85%;"></div>
+                </div>
+            </div>
+
+
+        </div>
+        <a href="skill.html" class="btn  skill-btn"> Know more..</a>
+    </div>
+    <!-- to write skill Section End from here -->
+
+
+    <!-- to write Portfolio Section Start from here -->
+
+    <div class="contaner">
+        <h2 class="port-h1">My Project</h2>
+        <div class="port-row">
+            <div class="port-img ho-po-img"> <a href="portfolio.html"> <img src="imagefile/Login-web-project.avif"
+                        alt="Error"></a>
+                <h3>E-comerce Website</h3>
+                <p>
+                    This projec is a E-comarce website.this my firs website, where did I work as biggner after learn...
+
+                </p>
+                <a href="portfolio.html" class="btn"> view more..</a>
+            </div>
+            <div class="port-img"> <a href="portfolio.html"> <img src="imagefile/Healthe-web-project.jpg"
+                        alt="Error"></a>
+                <h3>Medicine Management</h3>
+                <p>
+                    This projec is a medicine management or dose management . I work in this Project as UI designer and
+                    Fontend developer...
+                </p>
+                <a href="portfolio.html" class="btn"> view more..</a>
+            </div>
+            <div class="port-img"> <a href="portfolio.html"> <img src="imagefile/mobile-project.png" alt="Error"></a>
+                <h3>Mobile App Development</h3>
+                <p>
+                    This projec is a Mobile Application development .I work in this Project as UI designer and Fontend
+                    developer...
+
+                </p>
+                <a href="portfolio.html" class="btn"> view more..</a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- to write Portfolio Section End from here -->
+
+
+    <!-- to write style switcher start from here -->
+
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+
+        </div>
+        <div class="day-night s-icon"><span class="material-symbols-outlined">
+
+            </span></div>
+        <h4>Theme Color</h4>
+        <div class="color">
+            <span class="color1" onclick="setActiveStyle('color-1')"> </span>
+            <span class="color2" onclick="setActiveStyle('color-2')"> </span>
+            <span class="color3" onclick="setActiveStyle('color-3')"> </span>
+            <span class="color4" onclick="setActiveStyle('color-4')"> </span>
+            <span class="color5" onclick="setActiveStyle('color-5')"> </span>
+        </div>
+    </div>
+
+    <!-- to write style switcher End from here -->
+
+
+    <!-- to write Script File link start from here -->
+
+    <!-- <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = "none"
+        }
+    </script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/style-switcher.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
